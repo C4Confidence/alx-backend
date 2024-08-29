@@ -4,7 +4,7 @@
 """Get Locale from request"""
 
 from flask import Flask, render_template, request
-from flask_babelex import Babel
+from flask_babel import Babel
 
 app = Flask(__name__)
 
